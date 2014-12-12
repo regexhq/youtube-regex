@@ -1,4 +1,4 @@
-# youtube-regex [![NPM version][npmjs-shields]][npmjs-url] [![Build Status][travis-img]][travis-url] [![Coveralls][coveralls-shields]][coveralls-url]
+# youtube-regex [![NPM version][npmjs-shields]][npmjs-url] [![Build Status][travis-img]][travis-url] [![Coveralls][coveralls-shields]][coveralls-url] [![regexps org][regexps-shields]][regexps-url]
 > The correct Youtube video id regex. Regex done right!
 
 
@@ -70,3 +70,6 @@ Released under the [`MIT`][license-url] license.
 
 [author-website]: http://www.whistle-bg.tk
 [author-npmjs]: https://npmjs.org/~tunnckocore
+
+[regexps-shields]: http://img.shields.io/badge/regexps-approved-brightgreen.svg
+[regexps-url]: https://github.com/regexps
