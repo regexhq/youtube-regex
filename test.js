@@ -7,8 +7,8 @@
 
 'use strict';
 
-var youtubeRegex = require('./index');
 var assert = require('assert');
+var youtubeRegex = require('./index');
 
 function test(str) {
   return youtubeRegex().test(str);

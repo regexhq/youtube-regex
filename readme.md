@@ -1,8 +1,8 @@
-# youtube-regex [![NPM version][npmjs-shields]][npmjs-url] [![Build Status][travis-img]][travis-url] [![Coveralls][coveralls-shields]][coveralls-url] [![regexps org][regexps-shields]][regexps-url]
+# youtube-regex [![NPM version][npmjs-img]][npmjs-url] [![Build Status][travis-img]][travis-url] [![Coveralls][coveralls-img]][coveralls-url] [![regexps org][regexps-img]][regexps-url]
 > The correct Youtube video id regex. Regex done right!
 
 
-## Install [![Nodei.co stats][npmjs-install]][npmjs-url] 
+## Install [![Nodei.co stats][npmjs-ico]][npmjs-url] 
 > Install with [npm](https://npmjs.org)
 
 ```
@@ -40,19 +40,20 @@ youtubeRegex().test('http://www.youtube.com/watch?feature=related&v=0EWbonj7f18'
 + [github/tunnckoCore][author-github]
 + [twitter/tunnckoCore][author-twitter]
 + [npmjs/tunnckoCore][author-npmjs]
++ [more ...][contrib-more]
 
 
 ## License [![MIT license][license-img]][license-url]
-Copyright (c) 2014 [Charlike Mike Reagent][author-website], [contributors](https://github.com/tunnckoCore/youtube-regex/graphs/contributors).  
+Copyright (c) 2014 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf].  
 Released under the [`MIT`][license-url] license.
 
 
 [npmjs-url]: http://npm.im/youtube-regex
-[npmjs-shields]: http://img.shields.io/npm/v/youtube-regex.svg
-[npmjs-install]: https://nodei.co/npm/youtube-regex.svg?mini=true
+[npmjs-img]: http://img.shields.io/npm/v/youtube-regex.svg
+[npmjs-ico]: https://nodei.co/npm/youtube-regex.svg?mini=true
 
 [coveralls-url]: https://coveralls.io/r/tunnckoCore/youtube-regex?branch=master
-[coveralls-shields]: https://img.shields.io/coveralls/tunnckoCore/youtube-regex.svg
+[coveralls-img]: https://img.shields.io/coveralls/tunnckoCore/youtube-regex.svg
 
 [license-url]: https://github.com/tunnckoCore/youtube-regex/blob/master/license.md
 [license-img]: http://img.shields.io/badge/license-MIT-blue.svg
@@ -67,9 +68,10 @@ Released under the [`MIT`][license-url] license.
 [author-gittip]: https://www.gittip.com/tunnckoCore
 [author-github]: https://github.com/tunnckoCore
 [author-twitter]: https://twitter.com/tunnckoCore
-
-[author-website]: http://www.whistle-bg.tk
 [author-npmjs]: https://npmjs.org/~tunnckocore
 
-[regexps-shields]: http://img.shields.io/badge/regexps-approved-brightgreen.svg
+[contrib-more]: http://j.mp/1stW47C
+[contrib-graf]: https://github.com/tunnckoCore/youtube-regex/graphs/contributors
+
+[regexps-img]: http://img.shields.io/badge/regexps-approved-brightgreen.svg
 [regexps-url]: https://github.com/regexps

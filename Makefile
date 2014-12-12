@@ -4,25 +4,21 @@
 # Released under the MIT license.
 #
 
-JSCS      = node_modules/.bin/jscs
 MOCHA     = node_modules/.bin/mocha
 _MOCHA    = node_modules/.bin/_mocha
-JSHINT    = node_modules/.bin/jshint
 ISTANBUL  = node_modules/.bin/istanbul
 COVERALLS = node_modules/.bin/coveralls
 
-lint:
+test: 
 	npm install
-	${JSHINT} .
-	${JSCS} . --reporter inline
-
-test: lint
 	${MOCHA}
 
-test-cov: lint
+test-cov:
+	npm install
 	${ISTANBUL} cover ${_MOCHA}
 
-test-travis: lint
+test-travis:
+	npm install
 	${ISTANBUL} cover ${_MOCHA} --report lcovonly
   
 coveralls: test-travis
