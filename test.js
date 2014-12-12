@@ -5,11 +5,6 @@ var read = require('fs').readFileSync;
 
 var fixture = read('fixture.txt', 'utf-8');
 
-// var regex = youtubeRegex('g');
-// var input = fixture;
-
-// if(regex.test(input)) {
-//   while (match = regex.exec(input)) {
-//     console.log(match[1]);
-//   }
-// }
+// contains youtube url address
+youtubeRegex().test(fixture);
+//=> true

@@ -1,7 +1,7 @@
 {
   "name": "youtube-regex",
   "description": "The correct Youtube video id regex. Regex done right!",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "scripts": {
     "lint": "npm install && node_modules/.bin/jshint . && node_modules/.bin/jscs . --reporter inline",
     "test": "npm run lint && node_modules/.bin/mocha",

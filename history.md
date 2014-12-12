@@ -1,2 +1,2 @@
-## v0.1.0 / June 26, 2014
-- first commit
+## v0.0.0 / December 12, 2014
+- init commits
