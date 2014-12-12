@@ -7,6 +7,8 @@
 
 'use strict';
 
-module.exports = function youtubeRegex() {
-  return /youtu(?:.+\/v\/|.*v\=|\.be\/)([A-Za-z0-9_\-]{6,11})/g;
+module.exports =  function youtubeRegex() {
+  var regex = /youtu(?:.+\/v\/|.*v\=|\.be\/)([A-Za-z0-9_\-]{6,11})/g;
+
+  return regex;
 };

@@ -3,10 +3,9 @@
   "description": "The correct Youtube video id regex. Regex done right!",
   "version": "0.0.0",
   "scripts": {
-    "lint": "npm install && node_modules/.bin/jshint . && node_modules/.bin/jscs . --reporter inline",
-    "test": "npm run lint && node_modules/.bin/mocha",
-    "test-cov": "npm run lint && node_modules/.bin/istanbul cover node_modules/.bin/_mocha",
-    "test-travis": "npm run lint && node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly",
+    "test": "npm install && node_modules/.bin/mocha",
+    "test-cov": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha",
+    "test-travis": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly",
     "coveralls": "npm run test-travis && cat ./coverage/lcov.info | node_modules/.bin/coveralls"
   },
   "author": {
@@ -37,9 +36,6 @@
   "devDependencies": {
     "coveralls": "^2.11.2",
     "istanbul": "^0.3.2",
-    "jscs": ">=1.8.0",
-    "jscs-jsdoc": ">=0.2.0",
-    "jshint": "^2.5.10",
     "mocha": "^2.0.1",
     "mocha-lcov-reporter": "0.0.1"
   },

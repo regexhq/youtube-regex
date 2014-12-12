@@ -18,7 +18,20 @@ var youtubeRegex = require('youtube-regex');
 // contains youtube url address
 youtubeRegex().test('unicorn youtube.com/watch?v=0EWbonj7f18');
 //=> true
+
+// also these will works
+youtubeRegex().test('youtube.com/watch?v=0EWbonj7f18');
+//=> true
+youtubeRegex().test('youtube.com/watch?feature=related&v=0EWbonj7f18');
+//=> true
+youtubeRegex().test('youtube.com/watch?v=0EWbonj7f18&feature=related');
+//=> true
+youtubeRegex().test('http://www.youtube.com/watch?v=0EWbonj7f18');
+//=> true
+youtubeRegex().test('http://www.youtube.com/watch?feature=related&v=0EWbonj7f18');
+//=> true
 ```
+> For more use-cases see [tests](./test.js)
 
 
 ## Authors & Contributors
