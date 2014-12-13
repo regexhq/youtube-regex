@@ -1,6 +1,6 @@
 {
   "name": "youtube-regex",
-  "description": "The correct Youtube video id regex. Regex done right!",
+  "description": "The correct Youtube video id regex! Regex done right!",
   "version": "1.0.2",
   "scripts": {
     "test": "npm install && node_modules/.bin/mocha",
