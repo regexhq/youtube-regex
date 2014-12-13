@@ -1,3 +1,7 @@
+## v1.0.3 / December 13, 2014
+- update/rewrite regex
+- update/add more tests
+
 ## v1.0.2 / December 12, 2014
 - fixes
 
