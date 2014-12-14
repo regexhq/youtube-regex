@@ -1,3 +1,6 @@
+## v1.0.4 / December 15, 2014
+- moved to [regexps org][regexps-url]
+
 ## v1.0.3 / December 13, 2014
 - update/rewrite regex
 - update/add more tests
