@@ -27,11 +27,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/tunnckoCore/youtube-regex.git"
+    "url": "git://github.com/regexps/youtube-regex.git"
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/tunnckoCore/youtube-regex/blob/master/license.md"
+    "url": "https://github.com/regexps/youtube-regex/blob/master/license.md"
   },
   "dependencies": {},
   "devDependencies": {
