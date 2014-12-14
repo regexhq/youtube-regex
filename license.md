@@ -23,4 +23,4 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 
 [contrib-more]: http://j.mp/1stW47C
-[contrib-graf]: https://github.com/tunnckoCore/youtube-regex/graphs/contributors
+[contrib-graf]: https://github.com/regexps/youtube-regex/graphs/contributors

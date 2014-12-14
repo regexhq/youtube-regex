@@ -57,17 +57,17 @@ Released under the [`MIT`][license-url] license.
 [npmjs-img]: http://img.shields.io/npm/v/youtube-regex.svg
 [npmjs-ico]: https://nodei.co/npm/youtube-regex.svg?mini=true
 
-[coveralls-url]: https://coveralls.io/r/tunnckoCore/youtube-regex?branch=master
-[coveralls-img]: https://img.shields.io/coveralls/tunnckoCore/youtube-regex.svg
+[coveralls-url]: https://coveralls.io/r/regexps/youtube-regex?branch=master
+[coveralls-img]: https://img.shields.io/coveralls/regexps/youtube-regex.svg
 
-[license-url]: https://github.com/tunnckoCore/youtube-regex/blob/master/license.md
+[license-url]: https://github.com/regexps/youtube-regex/blob/master/license.md
 [license-img]: http://img.shields.io/badge/license-MIT-blue.svg
 
-[travis-url]: https://travis-ci.org/tunnckoCore/youtube-regex
-[travis-img]: https://travis-ci.org/tunnckoCore/youtube-regex.svg
+[travis-url]: https://travis-ci.org/regexps/youtube-regex
+[travis-img]: https://travis-ci.org/regexps/youtube-regex.svg
 
-[depstat-url]: https://david-dm.org/tunnckoCore/youtube-regex
-[depstat-img]: https://david-dm.org/tunnckoCore/youtube-regex.svg
+[depstat-url]: https://david-dm.org/regexps/youtube-regex
+[depstat-img]: https://david-dm.org/regexps/youtube-regex.svg
 
 [author-gittip-img]: http://img.shields.io/gittip/tunnckoCore.svg
 [author-gittip]: https://www.gittip.com/tunnckoCore
@@ -76,7 +76,7 @@ Released under the [`MIT`][license-url] license.
 [author-npmjs]: https://npmjs.org/~tunnckocore
 
 [contrib-more]: http://j.mp/1stW47C
-[contrib-graf]: https://github.com/tunnckoCore/youtube-regex/graphs/contributors
+[contrib-graf]: https://github.com/regexps/youtube-regex/graphs/contributors
 
 [regexps-img]: http://img.shields.io/badge/regexps-approved-brightgreen.svg
 [regexps-url]: https://github.com/regexps
