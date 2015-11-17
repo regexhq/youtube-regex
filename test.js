@@ -59,6 +59,31 @@ var fixtures = {
     'youtube.com/attribution_link?u=/e/v/0EWbonj7f18',
     'youtube.com/attribution_link?u=/e/watch?v=0EWbonj7f18',
     'youtube.com/attribution_link?u=/e/watch?feature=related&v=0EWbonj7f18'
+  ],
+  // trailing slash
+  trailing: [
+    'youtube.com/user/sandervandoorntv/watch/?v=WijF8aivOo8',
+    'youtube.com/user/sandervandoorntv/watch/?v=WijF8aivOo8&feature=related',
+    'youtube.com/user/sandervandoorntv/watch/?feature=related&v=WijF8aivOo8',
+    'youtube.com/watch/?v=0EWbonj7f18',
+    'youtube.com/watch/?feature=related&v=0EWbonj7f18',
+    'youtube.com/watch/?v=0EWbonj7f18&feature=related',
+    'youtube.com/embed/watch/?v=0EWbonj7f18',
+    'youtube.com/embed/watch/?feature=related&v=0EWbonj7f18',
+    'youtube.com/e/watch/?v=0EWbonj7f18',
+    'youtube.com/e/watch/?feature=related&v=0EWbonj7f18',
+    'youtube.com/attribution_link?u=/user/sandervandoorntv/watch/?v=WijF8aivOo8',
+    'youtube.com/attribution_link?u=/user/sandervandoorntv/watch/?v=WijF8aivOo8&feature=related',
+    'youtube.com/attribution_link?u=/user/sandervandoorntv/watch/?feature=related&v=WijF8aivOo8',
+    'youtube.com/attribution_link?u=/watch/?v=0EWbonj7f18',
+    'youtube.com/attribution_link?u=/watch/?feature=related&v=0EWbonj7f18',
+    'youtube.com/attribution_link?u=/watch/?v=0EWbonj7f18&feature=related',
+    'youtube.com/attribution_link?u=/embed/watch/?v=0EWbonj7f18',
+    'youtube.com/attribution_link?u=/embed/watch/?feature=related&v=0EWbonj7f18',
+    'youtube.com/attribution_link?u=/embed/v/0EWbonj7f18',
+    'youtube.com/attribution_link?u=/e/v/0EWbonj7f18',
+    'youtube.com/attribution_link?u=/e/watch/?v=0EWbonj7f18',
+    'youtube.com/attribution_link?u=/e/watch/?feature=related&v=0EWbonj7f18'
   ]
 };
 
@@ -78,6 +103,12 @@ describe('youtube-regex', function() {
     });
     it('attribution links', function(done) {
       fixtures.attrlink.forEach(function each(link) {
+        assert.ok(test(link));
+      });
+      done();
+    });
+    it('trailing slash (watch/?v=id) links', function(done) {
+      fixtures.trailing.forEach(function each(link) {
         assert.ok(test(link));
       });
       done();
