@@ -1,3 +1,8 @@
+
+
+## v1.0.5 / November 18, 2015
+- resolve #3 - trailing slash after `watch` (e.g. youtube.com/watch/?v=v2ifWcnQs6M)
+
 ## v1.0.4 / December 15, 2014
 - moved to [regexps org][regexps-url]
 
