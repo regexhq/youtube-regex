@@ -57,14 +57,14 @@ Released under the [`MIT`][license-url] license.
 [npmjs-img]: http://img.shields.io/npm/v/youtube-regex.svg
 [npmjs-ico]: https://nodei.co/npm/youtube-regex.svg?mini=true
 
-[coveralls-url]: https://coveralls.io/r/regexps/youtube-regex?branch=master
-[coveralls-img]: https://img.shields.io/coveralls/regexps/youtube-regex.svg
+[coveralls-url]: https://coveralls.io/r/regexhq/youtube-regex?branch=master
+[coveralls-img]: https://img.shields.io/coveralls/regexhq/youtube-regex.svg
 
 [license-url]: https://github.com/regexps/youtube-regex/blob/master/license.md
 [license-img]: http://img.shields.io/badge/license-MIT-blue.svg
 
-[travis-url]: https://travis-ci.org/regexps/youtube-regex
-[travis-img]: https://travis-ci.org/regexps/youtube-regex.svg
+[travis-url]: https://travis-ci.org/regexhq/youtube-regex
+[travis-img]: https://travis-ci.org/regexhq/youtube-regex.svg
 
 [depstat-url]: https://david-dm.org/regexps/youtube-regex
 [depstat-img]: https://david-dm.org/regexps/youtube-regex.svg
